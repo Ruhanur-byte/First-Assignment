@@ -101,11 +101,10 @@ h1{
 }
 .video-container{
     position: relative;
-    width: 60%;
-    max-width: 800px;
+   
     padding-top: 56%;
-    margin: 0 auto;
-    border-radius: 8px;
+    margin: 70px 80px;
+    border-radius: 20px;
 }
 .video-container iframe{
     position: absolute;
@@ -121,7 +120,7 @@ h3{
     margin-top: 20px;
     padding-top: 50px;
 }
-.decsr-target,.next-target{
+.decsr-target,.next-target,.footer-p{
     
     text-align: center;
     font-family: "azeret mono";
@@ -145,10 +144,56 @@ h3{
 .javascript{
     background-color: #f7f5ed;
 }
-.react js{
+
+.react-js{
     display: flex;
-    
-    margin: 20px 40px;
-    padding: 10px;
+    gap: 20px;
+    margin: 10px 20px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    font-family: "azeret mono";
+}
+.node-js{
+    display: flex;
+    gap:20px;
+    margin: 10px 20px;
+    padding: 20px;
+    background-color:#FFFFFF ;
+    font-family: "azeret mono";
+}
+.mongodb{
+    display: flex;
+    gap: 10px;
+    margin: 10px 20px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    font-family: "azeret mono";
+}
+.last-part{
     text-align: center;
+    justify-content: center;
+    font-family: "azeret mono";
+    background-image: url(../assets/handshake.jpg);
+    margin: 40px 40px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.sug-box{
+    border-radius: 5px;
+    height: 35px;
+    width: 300px;
+}
+.sub-box{
+    border-radius: 5px;
+    height: 40px;
+    width: 90px;
+}
+h2{
+    color: #f7f5ed;
+}
+.image-icon{
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 40px;
 }
